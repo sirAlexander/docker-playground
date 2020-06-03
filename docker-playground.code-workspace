@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "docker-101"
+		},
+		{
+			"path": "linkedin-learning-docker"
 		}
 	]
 }

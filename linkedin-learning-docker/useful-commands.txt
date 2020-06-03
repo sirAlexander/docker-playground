@@ -1,0 +1,16 @@
+$ docker run -ti ubuntu:latest bash
+
+- This gets you into the bash shell in your container.
+- `-ti` `t` = terminal; `i` = interactive;
+
+- cat /etc/lsb-release (informas you on the version of ubuntu you are running)
+
+- $ docker ps --format $FORMAT (helps format your output vertically)
+
+- $ echo $FORMAT (have to ensure you have the custom script file that facilitates this format)
+
+- docker commit keen_jennings my-image-2 >>> docker commit [`container-name`] [`new-image-name`]
+
+- docker attach --sig-proxy=false 304f5db405ec (attach to running contianer - makes it easy to dettach` [ctlr + P, ctlr +Q] - doesn't seem to work )
+
+[ Didn't complete free course - linkedin cut it off and made it paid ]
